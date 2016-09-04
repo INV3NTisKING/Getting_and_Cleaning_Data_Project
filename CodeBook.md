@@ -18,7 +18,7 @@ I then loaded the following .txt files into R, which came from unzipping the dow
 - "activity_labels.txt""
 - "features.txt"
 
-Lastly I merged the "train" data using cbind and the "test" data usnig cbind. Then used rbind to merge the binded "train" and "test" datas. 
+Lastly I merged the "train" data using cbind() and the "test" data usnig cbind(). Then used rbind() to merge the binded "train" and "test" datas. 
 
 # 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 
@@ -30,11 +30,11 @@ Next I used factors() replacing numbers, which referenced a specific activity na
 
 # 4. Appropriately label the data set with descriptive variable names.
 
-Next was I cleaned up the titles in accordance to our lectures using gsub. Also used tolower() to make sure everything was lower cased.
+Next I cleaned up the titles in accordance to our lectures using gsub(). Also used tolower() to make sure everything was lower cased.
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-To calculate the means of the activities I used the dplyr package. This allowed me use group_by() to group the variables with the activities then summarise them cleanly.
+To calculate the means of the activities I used the dplyr package. This allowed me use group_by() to group the variables with the activities then summarise them cleanly using summarise_each().
             
 Lastly write.table() was use to create my "Clean_Mean_Data.txt", minus the row name as they were unnecessary.   
            
