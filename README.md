@@ -14,10 +14,10 @@ Our project as students of Coursera's "Getting and Cleaning Data" course, was to
 
 Included Application and files:
 =========================================
-'README.md': explains the ojective of the "Getting and Cleaning Project".
-'run_analysis.R': an analysis tool built to retrieve and clean data.
-'CodeBook.md': used to indicate all the variables and summaries calculated, along with units, and any other relevant information.  
-'Clean_Mean_Data': the final product of running "run_analysis.R"
+- 'README.md': explains the ojective of the "Getting and Cleaning Project".
+- 'run_analysis.R': an analysis tool built to retrieve and clean data.
+- 'CodeBook.md': used to indicate all the variables and summaries calculated, along with units, and any other relevant information.  
+- 'Clean_Mean_Data': the final product of running "run_analysis.R"
 
 License:
 ========
